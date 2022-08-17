@@ -1,0 +1,48 @@
+* , *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+svg {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* border: 1px solid rgb(0, 0, 0, 0.5); */
+}
+
+h1 {
+    font-weight: bold;
+    font-family: Arial,Helvetica;
+    /* font-family: 'Abril Fatface', cursive;
+    font-family: 'Martel', serif; */
+}
+
+.header {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px 50px;
+    height: 90px;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.inputs-container {
+    display: flex;
+    width: 80%;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.checkbox-container {
+    display: flex;
+    margin-left: 20px;
+}
