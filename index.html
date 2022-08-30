@@ -7,8 +7,13 @@
     <script src="js/Constrainautor.js" defer></script>
     <script src="https://cdn.jsdelivr.net/gh/kchapelier/poisson-disk-sampling@2.2.3/build/poisson-disk-sampling.min.js" defer></script>
 
+    <script src="js/Functions.js" defer></script>
     <script src="js/Squished_Circles.js" defer></script>
     <script src="js/Utils.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Martel:wght@800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="header">
@@ -17,7 +22,12 @@
 
     <div class="inputs-container">
         <div class="checkbox-container">
-            <p>Delaunay Triangulation</p> <input id="delaunay" type="checkbox" name="checkbox" />
+            <p>Show Triangulation</p> <input id="delaunay" type="checkbox" name="checkbox" />
+        </div>
+        <button id="refresh">Random Values</button>
+        <div class="text-container">
+            <p>Values</p> <input type="text" id="values" placeholder="Ex: 55, 45, 140, 32">
+            <button id="submit-values">Submit</button>
         </div>
     </div>
 </body>

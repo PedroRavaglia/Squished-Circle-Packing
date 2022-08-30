@@ -1,1 +1,3 @@
 # Squished-Circle-Packing
+
+Circle Packing is a variation of a [Treemap](https://en.wikipedia.org/wiki/Treemapping) that uses circles instead of rectangles, where each branch of the tree is represented as a circle and its sub-branches are represented as circles inside of it. But circle packing layouts have the problem of "wasting" space. In this project I tried to improve this representation by expanding the circles until they almost cover the parent circle. The algorithm uses [d3.force](https://github.com/d3/d3-force) on a graph created from a [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) of the circles and employing a custom "triangle" force that tries to set triangle areas to a prescribed value.
