@@ -51,7 +51,7 @@ function squishedCircle(values=[]) {
 
     // Polygonize circles
 
-    const edgeSz = 0.04;
+    const edgeSz = 0.023;
     let vertices = [];
     let constraints = []; // Ex: [i, j] => v[i] and v[j] form a constraint
     let circles = [];
